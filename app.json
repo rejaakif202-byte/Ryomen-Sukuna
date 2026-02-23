@@ -10,31 +10,31 @@
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
+      "description": "8071086810:AAGEQ8N2ZCljYTpc7Cvafs36SgYVtPZmefY",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
+      "description": "7846306818",
       "value": ""
     },
     "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
+      "description": "21370037",
       "value": ""
     },
     "DATABASE_URL": {
-      "description": "Paste your mongo db url",
+      "description": "mongodb+srv://interpeterr:interpeterr@cluster0.bh4seqc.mongodb.net/?appName=Cluster0",
       "value": "url"
     },
     "DATABASE_NAME":{
-      "description": "Enter your DATABASE_NAME ",
+      "description": "Cluster0",
       "value": "linkssharing"
     },
     "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
+      "description": "0b57036f40bb6da488d05b43e2d20dc1",
       "value": ""
     },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "description": "7846306818",
       "value": "",
       "required": false
     }
