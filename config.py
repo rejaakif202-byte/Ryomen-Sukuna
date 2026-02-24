@@ -45,7 +45,7 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/animexv
 ›› ᴏᴡɴᴇʀ: <a href='tg://openmessage?user_id=7846306818'>ꜱʜᴀᴍʀᴏᴄᴋ</a>
 ›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a>
 ›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
-›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
+›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>"""
 
 CHANNELS_TXT = """
 <b>>> ANIME CHANNEL:</b> <a href='https://t.me/animexverse'>ANIME VERSE</a>
