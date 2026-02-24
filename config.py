@@ -41,12 +41,13 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/animexv
 ›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
 ›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
 
-CHANNELS_TXT = """<b>>> ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/animexverse'>ᴀɴɪᴍᴇ ᴠᴇʀꜱᴇ</a>
-<blockquote expandable>>> ᴍᴏᴠɪᴇs: <a href='https://t.me/+JgtDXEVMgFk1MzRl'>ᴍᴏᴠɪᴇ ᴠᴇʀꜱᴇ</a>
->> ᴡᴇʙsᴇʀɪᴇs: <a href='https://t.me/+u9qNcsWi9hwxZDJl'>ꜱᴇʀɪᴇꜱ ᴠᴇʀꜱᴇ</a>
->> ᴀᴅᴜʟᴛ ᴄʜᴀɴɴᴇʟs: <a href='https://t.me/ecchixverse'>ᴇᴄᴄʜɪ ᴠᴇʀꜱᴇ</a>
->> ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/versexnetwork'>ᴠᴇʀꜱᴇ ɴᴇᴛᴡᴏʀᴋ</a>
->> ᴅᴇᴠᴇʟᴏᴘᴇʀ: @SH4MROK</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
+CHANNELS_TXT = """<b>>> ANIME CHANNEL:</b> <a href='https://t.me/animexverse'>ANIME VERSE</a>
+<blockquote expandable>
+>>> MOVIES: <a href='https://t.me/+JgtDXEVMgFk1MzRl'>MOVIE VERSE</a>
+>>> WEBSERIES: <a href='https://t.me/+u9qNcsWi9hwxZDJ1'>SERIES VERSE</a>
+>>> ADULT CHANNELS: <a href='https://t.me/ecchixverse'>ECCHI VERSE</a>
+>>> COMMUNITY: <a href='https://t.me/versexnetwork'>VERSE NETWORK</a>
+>>> DEVELOPER: @SH4MROK</blockquote>"""
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 # Default
