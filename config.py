@@ -41,13 +41,16 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/animexv
 ›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
 ›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
 
-CHANNELS_TXT = """<b>>> ANIME CHANNEL:</b> <a href='https://t.me/animexverse'>ANIME VERSE</a>
+CHANNELS_TXT = """
+<b>>> ANIME CHANNEL:</b> <a href='https://t.me/animexverse'>ANIME VERSE</a>
 <blockquote expandable>
 >>> MOVIES: <a href='https://t.me/+JgtDXEVMgFk1MzRl'>MOVIE VERSE</a>
 >>> WEBSERIES: <a href='https://t.me/+u9qNcsWi9hwxZDJ1'>SERIES VERSE</a>
 >>> ADULT CHANNELS: <a href='https://t.me/ecchixverse'>ECCHI VERSE</a>
 >>> COMMUNITY: <a href='https://t.me/versexnetwork'>VERSE NETWORK</a>
->>> DEVELOPER: @SH4MROK</blockquote>"""
+>>> DEVELOPER: @SH4MROK
+</blockquote>
+"""
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 # Default
@@ -57,7 +60,8 @@ USER_REPLY_TEXT = "⚠️ ғᴜᴄᴋ ʏᴏᴜ, ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ
 # Logging
 LOG_FILE_NAME = "links-sharingbot.txt"
 DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "")) # Channel where user links are stored
-#--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
+#--- ---- ---- --- --- --- - -- -  - - - - - - - 
+- - - - --  - -
 
 try:
     ADMINS = []
