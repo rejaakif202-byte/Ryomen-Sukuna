@@ -31,7 +31,13 @@ START_PIC = "https://files.catbox.moe/i59ht7.jpg"
 START_IMG = "https://files.catbox.moe/i59ht7.jpg"
 # Messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ. ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ, ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ʟɪɴᴋs ᴀɴᴅ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟs sᴀғᴇ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/VERSEXNETWORK/10'>ᴠᴇʀꜱᴇ ᴛᴇᴀᴍ</a></blockquote></b>")
-HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=tg://openmessage?user_id=7846306818>ꜱʜᴀᴍʀᴏᴄᴋ</a>\n» Our Community: <a href=https://t.me/animexverse>Verse Network</a>\n» Anime Channel: <a href=https://t.me/animexverse>Anime Cruise</a>\n» Ongoing Anime: <a href=https://t.me/Ongoingxverse>Ongoing cruise</a>\n» Developer: <a href=tg://openmessage?user_id=7846306818>Shamrock</a></b>")
+HELP = os.environ.get(
+    "HELP_MESSAGE",
+    """<b><blockquote expandable>
+Creator: <a href="https://t.me/SH4MROK">Shamrock</a>
+This bot is developed by Shamrock (@SH4MROK) to securely share links.
+</blockquote></b>"""
+)
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Shamrock (@SH4MROK) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
 
 ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/animexverse'>ᴀɴɪᴍᴇ ᴠᴇʀꜱᴇ</a>
