@@ -27,8 +27,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 
 # Start pic
-START_PIC = "https://files.catbox.moe/i59ht7.jpg"
-START_IMG = "https://files.catbox.moe/i59ht7.jpg"
+START_PIC = "https://graph.org/file/04176cce417d309449f6a-5f60f0333d323168cd.jpg"
+START_IMG = "https://graph.org/file/04176cce417d309449f6a-5f60f0333d323168cd.jpg"
 # Messages
 START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs sʜᴀʀɪɴɢ ʙᴏᴛ. ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ, ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ʟɪɴᴋs ᴀɴᴅ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟs sᴀғᴇ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/VERSEXNETWORK/10'>ᴠᴇʀꜱᴇ ᴛᴇᴀᴍ</a></blockquote></b>")
 HELP = os.environ.get(
