@@ -6,8 +6,8 @@ from logging.handlers import RotatingFileHandler
 
 # Recommended
 TG_BOT_TOKEN = "8071086810:AAHS5QUumTRMvvwZIoUtCLpHjJ3PISFM1T0"
-APP_ID = "21370037"
-API_HASH = "0b57036f40bb6da488d05b43e2d20dc1"
+APP_ID = "32562995"
+API_HASH = "d74b9929a577c9e26f72a36397af47d6"
 
 # Main
 OWNER_ID = int(os.environ.get("OWNER_ID", "7846306818"))
@@ -34,11 +34,11 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛ�
 HELP = os.environ.get(
     "HELP_MESSAGE",
     """<b><blockquote expandable>
-Creator: <a href="https://t.me/SH4MROK">Shamrock</a>
-This bot is developed by Shamrock (@SH4MROK) to securely share links.
+Creator: <a href="https://t.me/SH4MR0K">Shamrock</a>
+This bot is developed by: <a href="https://t.me/SH4MR0K">Shamrock</a> to securely share links.
 </blockquote></b>"""
 )
-ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Shamrock (@SH4MROK) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
+ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Shamrock (@REXX_DADDY) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
 
 ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/animexverse'>ᴀɴɪᴍᴇ ᴠᴇʀꜱᴇ</a>
 <blockquote expandable>›› ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/animexverse'>Cʟɪᴄᴋ ʜᴇʀᴇ</a>
@@ -48,13 +48,13 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/animexv
 ›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>"""
 
 CHANNELS_TXT = """
-<b>>> ANIME CHANNEL:</b> <a href='https://t.me/animexverse'>ANIME VERSE</a>
+<b>>> ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ:</b> <a href='https://t.me/animexverse'>ᴀɴɪᴍᴇ ᴠᴇʀsᴇ</a>
 <blockquote expandable>
->>> MOVIES: <a href='https://t.me/+JgtDXEVMgFk1MzRl'>MOVIE VERSE</a>
->>> WEBSERIES: <a href='https://t.me/+u9qNcsWi9hwxZDJ1'>SERIES VERSE</a>
->>> ADULT CHANNELS: <a href='https://t.me/ecchixverse'>ECCHI VERSE</a>
->>> COMMUNITY: <a href='https://t.me/versexnetwork'>VERSE NETWORK</a>
->>> DEVELOPER: @SH4MROK
+>>> ᴍᴏᴠɪᴇs: <a href='https://t.me/+JgtDXEVMgFk1MzRl'>ᴍᴏᴠɪᴇ ᴠᴇʀsᴇ</a>
+>>> ᴡᴇʙsᴇʀɪᴇs: <a href='https://t.me/+u9qNcsWi9hwxZDJ1'>sᴇʀɪᴇs ᴠᴇʀsᴇ</a>
+>>> ᴇxᴄʟᴜsɪᴠᴇ ᴄᴏɴᴛᴇɴᴛs: <a href='https://t.me/ecchixverse'>ᴇᴄᴄʜɪ ᴠᴇʀsᴇ</a>
+>>> ɴᴇᴛᴡᴏʀᴋ: <a href='https://t.me/versexnetwork'>ᴠᴇʀsᴇ ɴᴇᴛᴡᴏʀᴋ</a>
+>>> ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/SH4MR0K'>sʜᴀᴍʀᴏᴄᴋ</a>
 </blockquote>
 """
 
