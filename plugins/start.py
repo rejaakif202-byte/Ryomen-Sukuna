@@ -561,7 +561,30 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         user = await client.get_users(OWNER_ID)
         user_link = f"https://t.me/{user.username}" if user.username else f"tg://openmessage?user_id={OWNER_ID}"
         
-        await query.edit_message_media(
+        from pyrogram.errors import MessageNotModified
+
+try:
+    await query.edit_message_media(
+        InputMediaPhoto(
+            "https://envs.sh/Wdj.jpg",
+            ABOUT_TXT
+        ),
+        reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'),
+             InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close')]
+        ]),
+    )
+except MessageNotModified:
+    try:
+    await query.edit_message_media(
+        InputMediaPhoto("https://envs.sh/Wdj.jpg", CHANNELS_TXT),
+        reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'),
+             InlineKeyboardButton('home•', callback_data='setting')]
+        ]),
+    )
+except MessageNotModified:
+    pass
             InputMediaPhoto(
                 "https://envs.sh/Wdj.jpg",
                 ABOUT_TXT
@@ -569,7 +592,16 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'), InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close')]
             ]),
-        )
+        try:
+    await query.edit_message_media(
+        InputMediaPhoto(
+            START_PIC,
+            START_MSG
+        ),
+        reply_markup=inline_buttons
+    )
+except MessageNotModified:
+    pass
 
     elif data == "channels":
         user = await client.get_users(OWNER_ID)
