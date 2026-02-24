@@ -7,7 +7,7 @@ from collections import defaultdict
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode, ChatMemberStatus, ChatAction
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InputMediaPhoto
-from pyrogram.errors import FloodWait, UserNotParticipant, UserIsBlocked, InputUserDeactivated
+from pyrogram.errors import FloodWait, UserNotParticipant, UserIsBlocked, InputUserDeactivated, MessageNotModified
 import os
 import asyncio
 from asyncio import sleep
@@ -558,10 +558,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     
     elif data == "about":
-        user = await client.get_users(OWNER_ID)
+        user = await client.get_users(7846306818)
         user_link = f"https://t.me/{user.username}" if user.username else f"tg://openmessage?user_id={OWNER_ID}"
-        
-        from pyrogram.errors import MessageNotModified
 
 try:
     await query.edit_message_media(
@@ -571,13 +569,12 @@ try:
         ),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'),
-             InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close')]
+             InlineKeyboardButton('ᴄʟᴏsᴇ •', callback_data='close')
+            ]
         ]),
     )
 except MessageNotModified:
-    try:
-    await query.edit_message_media(
-        InputMediaPhoto("https://envs.sh/Wdj.jpg", CHANNELS_TXT),
+    pass
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='start'),
              InlineKeyboardButton('home•', callback_data='setting')]
@@ -604,7 +601,7 @@ except MessageNotModified:
     pass
 
     elif data == "channels":
-        user = await client.get_users(OWNER_ID)
+        user = await client.get_users(7846306818)
         user_link = f"https://t.me/{user.username}" if user.username else f"tg://openmessage?user_id={OWNER_ID}" 
         ownername = f"<a href={user_link}>{user.first_name}</a>" if user.first_name else f"<a href={user_link}>no name !</a>"
         await query.edit_message_media(
